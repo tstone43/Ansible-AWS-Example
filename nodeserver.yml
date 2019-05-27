@@ -3,4 +3,4 @@
   become: yes
   roles:
     - nodejs
-    - codedeploy
+    - ansible-aws-codedeploy-agent

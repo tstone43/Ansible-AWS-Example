@@ -6,6 +6,11 @@
   tags:
     - codedeploy
 
+- name: Install Python-pip
+  yum:
+    name: python-pip
+    state: present
+
 - name: "Install Packages | package manager"
   package:
     state: present

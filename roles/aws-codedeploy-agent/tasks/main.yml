@@ -19,7 +19,6 @@
     name: "{{ item }}"
   with_items:
     - awscli
-    - python2
   tags:
     - codedeploy
 

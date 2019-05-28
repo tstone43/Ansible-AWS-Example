@@ -11,13 +11,6 @@
     name: python-pip
     state: present
 
-- name: "Install Packages | pip"
-  pip:
-    state: present
-    name: "{{ item }}"
-  with_items:
-    - python-pip
-
 - name: "Install Packages | package manager"
   package:
     state: present
